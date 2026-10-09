@@ -1,17 +1,3 @@
-Máy chỉ có Python của MSYS2, chưa có pip, nên mình sẽ cài pip qua `ensurepip`, sau đó cài `pypdf` để đọc slide và `faster-whisper` để chuyển giọng nói trong mp3 thành văn bản.
-
-Lần tạo môi trường Python đầu bị hỏng, mình xóa đi và tạo lại.
-
-Cài xong. Giờ đọc slide PDF trước.
-
-Slide có 45 trang. Bắt đầu chạy bóc băng file mp3 bằng GPU ở chế độ nền (mất vài phút), trong lúc đó mình đọc slide.
-
-Đã đọc xong slide (45 trang, Chương 3 – Bài 6: Phụ thuộc hàm; trang 44 là "Bài tập"). Đang chờ bóc băng xong.
-
-Lỗi tương thích thư viện giải mã âm thanh (PyAV mới quá). Hạ phiên bản rồi chạy lại.
-
-Bóc băng xong (~26 phút, 19:13 → ~19:39). Mình trích thêm vài khung hình video đoạn cuối (lúc cô giao bài) để xem màn hình cô chia sẻ gì.
-
 # Bài cô giao buổi tối Thứ 6, 09/10/2026 (cô Đỗ Thanh Hà, môn CSDL)
 
 Mình đã đọc hết 45 trang slide, nghe lại toàn bộ 26 phút ghi âm, xem video đoạn cô giao bài và ảnh chụp khung chat.
@@ -21,7 +7,7 @@ Mình đã đọc hết 45 trang slide, nghe lại toàn bộ 26 phút ghi âm, 
 | | |
 |---|---|
 | **Làm gì** | 4 bài tập ở **slide trang 44/45** (bài cuối của file PDF) |
-| **Đề ở đâu** | Trong slide `8_CSDL_Course___Vietnamese-11.pdf` trang 44. Cô cũng đã tạo bài tập trên **Google Classroom** |
+| **Đề ở đâu** | Trong slide `BaiGiang/Chuong3_PhuThuocHam/08_PhuThuocHam.pdf` trang 44. Cô cũng đã tạo bài tập trên **Google Classroom** |
 | **Nộp ở đâu** | **Google Classroom**. Cô nhắn trong chat lúc 7:41 PM: *"Cô tạo bài tập trên classroom rồi nhé… truy cập vào và thực hiện bài tập (thực hiện nộp bài tập)"* |
 | **Deadline** | **12h đêm Thứ 2, 12/10/2026**. Cô nhắn lúc 7:42 PM, trên lớp cô cũng nói *"hết thứ 2"* |
 
@@ -56,5 +42,3 @@ Phần ghi âm buổi tối gồm:
 
 Phần trước đó cô dạy buổi sáng và nằm trong slide 11–35: định nghĩa FD, hệ tiên đề Armstrong, khóa/siêu khóa, thuật toán bao đóng, chia thuộc tính thành L/M/R/N. Khi làm bài, bạn chủ yếu dùng **bao đóng (slide 29–31)** và **thuật toán tìm khóa (slide 33–35)**.
 
----
-Mình đã lưu deadline này vào bộ nhớ. Nếu bạn muốn, mình có thể giải cả 4 bài theo đúng cách cô trình bày trên slide.
