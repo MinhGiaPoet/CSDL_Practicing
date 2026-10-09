@@ -3,6 +3,9 @@
 Repo ôn tập môn Cơ sở dữ liệu (PTIT) của người dùng. Trao đổi bằng tiếng Việt.
 
 - `Ôn Test RA/`: slide bài giảng (file 1–6) và bài tập nâng cao đại số quan hệ (file 7).
+- `Chuong3_PhuThuocHam/`: slide Chương 3, Bài 6 "Phụ thuộc hàm" (file 8): ôn RA và ràng buộc, định nghĩa FD,
+  hệ tiên đề Armstrong, khóa và siêu khóa, bao đóng, thuật toán tìm mọi khóa, phủ tối thiểu, phép chiếu FD.
+  Khi người dùng nhờ giảng lại bài này: giảng từng phần ngắn, có ví dụ và câu tự kiểm tra, bám theo slide.
 - `FirstTestCSDL.7z`, `TestRA_CSDL_9thg10.rar`: ảnh chụp hai bài kiểm tra thật.
 - `DeThi/`: hướng dẫn ra đề và ngân hàng câu hỏi chép lại từ hai bài kiểm tra.
 
