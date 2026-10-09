@@ -7,7 +7,7 @@ Mình đã đọc hết 45 trang slide, nghe lại toàn bộ 26 phút ghi âm, 
 | | |
 |---|---|
 | **Làm gì** | 4 bài tập ở **slide trang 44/45** (bài cuối của file PDF) |
-| **Đề ở đâu** | Trong slide `8_CSDL_Course___Vietnamese-11.pdf` trang 44. Cô cũng đã tạo bài tập trên **Google Classroom** |
+| **Đề ở đâu** | Trong slide `BaiGiang/Chuong3_PhuThuocHam/08_PhuThuocHam.pdf` trang 44. Cô cũng đã tạo bài tập trên **Google Classroom** |
 | **Nộp ở đâu** | **Google Classroom**. Cô nhắn trong chat lúc 7:41 PM: *"Cô tạo bài tập trên classroom rồi nhé… truy cập vào và thực hiện bài tập (thực hiện nộp bài tập)"* |
 | **Deadline** | **12h đêm Thứ 2, 12/10/2026**. Cô nhắn lúc 7:42 PM, trên lớp cô cũng nói *"hết thứ 2"* |
 
