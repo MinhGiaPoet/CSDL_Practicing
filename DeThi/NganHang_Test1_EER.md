@@ -1,6 +1,6 @@
 # Ngân hàng đề Test 1: "Chương 1 và Mô hình EER" (55 câu)
 
-Chép tóm tắt từ 32 ảnh trong `FirstTestCSDL.7z` (không có đủ 55 câu). Đáp án do Claude tự giải.
+Chép tóm tắt từ 32 ảnh trong `AnhGoc/Test1_EER_FirstTestCSDL.7z` (không có đủ 55 câu). Đáp án do Claude tự giải.
 Gần như toàn bộ là dạng **"Cho lược đồ ER (hình vẽ), ánh xạ nào sang mô hình quan hệ là đúng?"**.
 Đáp án viết dạng `TABLE(Col PK, Col FK→REF NOT NULL UNIQUE, …, PK(a,b))`.
 

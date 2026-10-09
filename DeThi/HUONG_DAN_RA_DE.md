@@ -5,8 +5,8 @@ rút ra từ hai bài kiểm tra thật:
 
 | Bài | Tên trên hệ thống | Số câu | Nguồn ảnh | Ngân hàng chép lại |
 |---|---|---|---|---|
-| Test 1 | "Chương 1 và Mô hình EER" | 55 | `FirstTestCSDL.7z` (32 ảnh) | `NganHang_Test1_EER.md` |
-| Test 2 (9/10/2026) | "RA - ATTT" | 74, khoảng 70 phút | `TestRA_CSDL_9thg10.rar` (75 ảnh) | `NganHang_Test2_RA.md` |
+| Test 1 | "Chương 1 và Mô hình EER" | 55 | `AnhGoc/Test1_EER_FirstTestCSDL.7z` (32 ảnh) | `NganHang_Test1_EER.md` |
+| Test 2 (9/10/2026) | "RA - ATTT" | 74, khoảng 70 phút | `AnhGoc/Test2_RA_2026-10-09.rar` (75 ảnh) | `NganHang_Test2_RA.md` |
 
 Khi được nhờ tạo đề luyện: đọc file này, xem vài câu mẫu trong ngân hàng, rồi ra đề theo đúng các quy tắc dưới đây.
 

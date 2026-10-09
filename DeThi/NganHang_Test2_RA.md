@@ -1,6 +1,6 @@
 # Ngân hàng đề Test 2: "RA - ATTT" (9/10/2026, 74 câu)
 
-Chép lại từ ảnh trong `TestRA_CSDL_9thg10.rar`. Đáp án do Claude tự giải (đề thật không hiện đáp án),
+Chép lại từ ảnh trong `AnhGoc/Test2_RA_2026-10-09.rar`. Đáp án do Claude tự giải (đề thật không hiện đáp án),
 câu nào có vấn đề thì ghi chú. Ký hiệu: `π_{…}`, `σ_{…}`, `⋈` (kết tự nhiên), `⋈_{θ}` (kết theta), `ρ`, `<>` = khác.
 
 **Lược đồ U (dùng chung, viết tắt S = STUDENT, C = COURSE, E = ENROLL):**
