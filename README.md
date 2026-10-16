@@ -15,7 +15,8 @@ BaiGiang/                         Slide bài giảng, xếp theo chương
 │   ├── 05_MoHinhQuanHe_AnhXaER.pdf
 │   └── 06_SQL_DaiSoQuanHe_RangBuoc.pdf
 └── Chuong3_PhuThuocHam/
-    └── 08_PhuThuocHam.pdf         Bài 6: phụ thuộc hàm (9/10/2026)
+    ├── 08_PhuThuocHam.pdf         Bài 6: phụ thuộc hàm (9/10/2026)
+    └── 09_ChuanHoa_CacDangChuan.pdf  Chuẩn hóa: 1NF, 2NF, 3NF, BCNF (16/10/2026)
 BaiTap/
 └── RA_NangCao/
     ├── 07_BaiTapNangCao_DaiSoQuanHe.pdf
