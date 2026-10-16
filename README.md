@@ -5,6 +5,7 @@ Tài liệu ôn tập môn **Cơ sở dữ liệu** (PTIT, cô Đỗ Thanh Hà).
 ## Cấu trúc
 
 ```
+LoTrinhHoc.md                     Lộ trình học lại từ đầu (từ 16/10/2026), có đánh dấu tiến độ
 BaiGiang/                         Slide bài giảng, xếp theo chương
 ├── Chuong1_KhaiNiemCoBan/
 │   ├── 01_KhaiNiemCoBan_Phan1.pdf

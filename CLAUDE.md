@@ -13,6 +13,9 @@ Repo ôn tập môn Cơ sở dữ liệu (PTIT) của người dùng. Trao đổ
 - `BuoiHoc/<ngày>_<chủ đề>/`: ghi hình buổi học và `GiaoBai.md` (bài được giao, nơi nộp, deadline).
 - `DeThi/`: hướng dẫn ra đề và ngân hàng câu hỏi chép lại từ hai bài kiểm tra; ảnh gốc nén trong `DeThi/AnhGoc/`.
 
+**Học lại từ đầu (từ 16/10/2026):** người dùng đang học theo `LoTrinhHoc.md`. Đầu mỗi phiên đọc file đó để biết đang ở
+bài nào; giảng theo phần "Cách học" trong file; học xong bài nào thì đổi trạng thái và ghi một dòng vào Nhật ký.
+
 Khi thêm file mới: đặt đúng thư mục theo quy ước trong `README.md` và cập nhật cây thư mục ở đó.
 
 **Khi người dùng nhờ tạo đề luyện / đề thi thử:** đọc `DeThi/HUONG_DAN_RA_DE.md` trước, xem vài câu mẫu trong
