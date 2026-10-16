@@ -6,6 +6,8 @@ Bắt đầu: 16/10/2026. Học chậm, hiểu chắc, không còn ôn chống c
 
 - Mỗi lần **một bài**, khoảng 20–30 phút. Mỗi bài chia vài mục ngắn, có ví dụ đời thường và **câu tự kiểm tra** ở cuối.
 - Bám theo slide của cô Đỗ Thanh Hà, ghi rõ số slide. Phần Claude tự thêm ngoài slide được đánh dấu **(bổ sung)**.
+- Mỗi mục tách rõ hai phần: **📄 Slide nói** (nội dung của cô, giữ đúng ý và số liệu, không gán ví dụ sai chỗ) và
+  **💡 Giải thích thêm** (ví dụ, so sánh do Claude thêm). Xem trực tiếp ảnh slide trước khi giảng, vì nhiều slide chỉ có hình.
 - Trả lời câu tự kiểm tra trước khi gõ **"tiếp"**. Chỗ nào chưa hiểu thì hỏi lại ngay, Claude giảng lại bằng cách khác
   (ví dụ nhỏ hơn, có hình), không nhắc lại y nguyên.
 - Bảng ví dụ giữ nhỏ (3–4 hàng). Bảng to thì đi từng bước.
