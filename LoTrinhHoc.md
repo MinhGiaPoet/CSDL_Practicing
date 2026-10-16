@@ -17,8 +17,8 @@ Ký hiệu trạng thái: ⬜ chưa học · 🟨 đang học · ✅ xong.
 
 | # | Bài | Slide | |
 |---|---|---|---|
-| A1 | CSDL là gì, vì sao không lưu bằng tệp thường | 01: 3–18, 22–23 | 🟨 |
-| A2 | Hệ quản trị CSDL (DBMS): 5 chức năng, hệ CSDL gồm 4 thành phần | 01: 19–20 | ⬜ |
+| A1 | CSDL là gì, vì sao không lưu bằng tệp thường | 01: 3–18, 22–23 | ✅ |
+| A2 | Hệ quản trị CSDL (DBMS): 5 chức năng, hệ CSDL gồm 4 thành phần | 01: 19–20 | 🟨 |
 | A3 | Các mô hình CSDL qua thời gian: tệp, phân cấp, mạng, quan hệ, hướng đối tượng, NoSQL | 01: 21–28 | ⬜ |
 | A4 | Bên trong DBMS: lưu trữ và siêu dữ liệu, bộ quản lý lưu trữ, bộ xử lý truy vấn, giao dịch ACID | 01: 35–41 · 02: 3–8 | ⬜ |
 | A5 | Dữ liệu và thông tin; dữ liệu lưu trữ và dữ liệu dẫn xuất | 01: 42–45 · 02: 9–13 | ⬜ |
@@ -86,3 +86,4 @@ Khi cô phát slide tiếp (thuật toán phân rã BCNF, tổng hợp 3NF…), 
 ## Nhật ký
 
 - 16/10/2026: lập lộ trình, bắt đầu A1.
+- 16/10/2026: xong A1 (bạn bỏ qua câu tự kiểm tra). Tiếp theo: A2.
