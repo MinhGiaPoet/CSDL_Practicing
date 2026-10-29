@@ -82,9 +82,9 @@ Ký hiệu trạng thái: ⬜ chưa học · 🟨 đang học · ✅ xong.
 | F1 | Bất thường; phân rã; kết nối không mất mát; bảo toàn phụ thuộc | 09: 4–12 | ✅ |
 | F2 | 1NF và 2NF (ví dụ hóa đơn INVOICE) | 09: 13–24 | 🟨 |
 | F3 | 3NF và BCNF; khi nào 3NF khác BCNF | 09: 25–34 | 🟨 |
-| F4 | Thuật toán phân rã BCNF; ví dụ R(A,B,C,D,E); vì sao có lúc nên dừng ở 3NF | 10: 35–38 · `GhiChep` mục 1–2 | ⬜ |
-| F5 | Thuật toán tổng hợp 3NF; ví dụ 3NF (1) và (2) | 10: 39–47 · `GhiChep` mục 3–6 | ⬜ |
-| F6 | Bài tập 11 lược đồ (tìm khóa, xét BCNF/3NF, phân rã) | 10: 48 · `GhiChep` mục 7–9 | ⬜ |
+| F4 | Thuật toán phân rã BCNF; ví dụ R(A,B,C,D,E); vì sao có lúc nên dừng ở 3NF | 10: 35–38 · `GhiChep` mục 1–2 | 🟨 |
+| F5 | Thuật toán tổng hợp 3NF; ví dụ 3NF (1) và (2) | 10: 39–47 · `GhiChep` mục 3–6 | 🟨 |
+| F6 | Bài tập 11 lược đồ (tìm khóa, xét BCNF/3NF, phân rã) | 10: 48 · `GhiChep` mục 7–9 | 🟨 |
 
 F4–F6 học buổi 23/10/2026. PDF cô gửi 29/10 là `10_ChuanHoa_PhanRa_BCNF_3NF.pdf` (50 trang, không có các slide lời giải
 bài 1, 3, 11 mà buổi học chiếu); lời giải đủ 11 bài ở `BuoiHoc/2026-10-23_PhanRa_BCNF_3NF/GhiChep.md`.
@@ -116,3 +116,5 @@ bài 1, 3, 11 mà buổi học chiếu); lời giải đủ 11 bài ở `BuoiHoc
   test 8); bạn xin sang file 09 nên phép chiếu FD (slide 40–41) và bài tập slide 44 để lại, E6 vẫn 🟨. Bắt đầu F1: slide 1–8.
 - 29/10/2026: xong F1 (giảng slide 9–12; bạn bỏ câu tự kiểm tra). Bạn xin giảng gộp 1NF/2NF/3NF/BCNF trong một lượt
   (slide 13–34, ví dụ INVOICE và R(A,B,C,D,E)). Trả lời câu tự kiểm tra thì F2, F3 xong; tiếp theo F4 (dùng GhiChep 23/10).
+- 29/10/2026: bạn thấy phần giảng lý thuyết 1NF–BCNF vẫn khó, xin cách "thực dụng" để làm bài slide 48 file 10 (cô vừa gửi PDF,
+  đã lưu vào repo). Chuyển sang dạy theo công thức 4 bước + bảng kiểm tra; làm mẫu bài 1, 3, 11; giao bạn tự làm bài 2 và 6.
