@@ -99,3 +99,5 @@ F4–F6 học buổi 23/10/2026. Bản slide 55 trang chưa có PDF trong repo, 
   (mục tiêu bài, ràng buộc = "tập vi phạm phải rỗng"). Lượt sau: slide 4–10 (bài ôn RA) hoặc nhảy tới slide 11 (E1), tùy bạn chọn.
 - 29/10/2026: bạn trả lời đúng 3 câu của slide 1–3; bỏ qua slide 4–10 (để dành tới giai đoạn D). Bắt đầu E1: giảng slide 11–13
   (dị thường, định nghĩa FD, hình minh họa). Lượt sau: slide 14–17.
+- 29/10/2026: bạn hỏi lại định nghĩa FD (nhầm "duy nhất một giá trị Y" với "duy nhất một dòng"), đã giảng lại bằng cách gom nhóm
+  và phân biệt FD với khóa. Giảng tiếp slide 14–17. Trả lời xong câu tự kiểm tra thì E1 xong, tiếp theo E2 (slide 18–22).
