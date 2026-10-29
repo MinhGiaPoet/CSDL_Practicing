@@ -68,7 +68,7 @@ Ký hiệu trạng thái: ⬜ chưa học · 🟨 đang học · ✅ xong.
 
 | # | Bài | Slide | |
 |---|---|---|---|
-| E1 | Vì sao cần FD; định nghĩa; FD tầm thường | 08: 11–17 | ⬜ |
+| E1 | Vì sao cần FD; định nghĩa; FD tầm thường | 08: 11–17 | 🟨 |
 | E2 | Hệ tiên đề Armstrong và quy tắc suy diễn | 08: 18–22 | ⬜ |
 | E3 | Khóa, siêu khóa, thuộc tính khóa | 08: 23–26 | ⬜ |
 | E4 | Bao đóng của tập thuộc tính | 08: 27–31 | ⬜ |
@@ -97,3 +97,5 @@ F4–F6 học buổi 23/10/2026. Bản slide 55 trang chưa có PDF trong repo, 
 - 29/10/2026: thêm F4–F6 (phân rã BCNF, tổng hợp 3NF, bài tập slide 48) từ ảnh buổi 23/10. Tiến độ vẫn ở A3.
 - 29/10/2026: bạn xin giảng lại file 08 từ đầu, mỗi lượt vài slide, giảng dễ hiểu, giải nghĩa từng ký hiệu. Đã giảng slide 1–3
   (mục tiêu bài, ràng buộc = "tập vi phạm phải rỗng"). Lượt sau: slide 4–10 (bài ôn RA) hoặc nhảy tới slide 11 (E1), tùy bạn chọn.
+- 29/10/2026: bạn trả lời đúng 3 câu của slide 1–3; bỏ qua slide 4–10 (để dành tới giai đoạn D). Bắt đầu E1: giảng slide 11–13
+  (dị thường, định nghĩa FD, hình minh họa). Lượt sau: slide 14–17.
