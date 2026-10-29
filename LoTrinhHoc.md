@@ -103,3 +103,6 @@ F4–F6 học buổi 23/10/2026. Bản slide 55 trang chưa có PDF trong repo, 
   và phân biệt FD với khóa. Giảng tiếp slide 14–17. Trả lời xong câu tự kiểm tra thì E1 xong, tiếp theo E2 (slide 18–22).
 - 29/10/2026: xong E1 (trả lời đúng cả 3 câu; lưu ý khi kiểm tra FD "trên dữ liệu" phải gom nhóm theo vế trái, đừng chỉ suy
   theo thực tế). Tiếp theo: E2, hệ tiên đề Armstrong (slide 18–22).
+- 29/10/2026: E2: đã giảng slide 18–19 (3 tiên đề, hợp/tách) và slide 19–22 (bắc cầu giả, tích lũy, tổ hợp, ba ví dụ).
+  Bạn có đưa ảnh đề test 8 (FD) lên `DeThi/test8/` nhưng chọn vẫn học đủ theo lộ trình, không rút gọn. Trả lời xong câu tự
+  kiểm tra thì E2 xong, tiếp theo E3.
