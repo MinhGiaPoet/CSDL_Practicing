@@ -2,7 +2,7 @@
 
 Repo ôn tập môn Cơ sở dữ liệu (PTIT) của người dùng. Trao đổi bằng tiếng Việt. Cấu trúc thư mục xem `README.md`.
 
-- `BaiGiang/`: slide bài giảng theo chương (file 01–06, 08).
+- `BaiGiang/`: slide bài giảng theo chương (file 01–06, 08, 09).
   `BaiGiang/Chuong3_PhuThuocHam/08_PhuThuocHam.pdf` là Chương 3, Bài 6 "Phụ thuộc hàm": ôn RA và ràng buộc, định nghĩa FD,
   hệ tiên đề Armstrong, khóa và siêu khóa, bao đóng, thuật toán tìm mọi khóa, phủ tối thiểu, phép chiếu FD.
   Khi người dùng nhờ giảng lại bài này: giảng từng phần ngắn, có ví dụ và câu tự kiểm tra, bám theo slide.
@@ -11,6 +11,9 @@ Repo ôn tập môn Cơ sở dữ liệu (PTIT) của người dùng. Trao đổ
   (ví dụ INVOICE, Movie). Giảng lại theo cùng cách như file 08.
 - `BaiTap/RA_NangCao/`: bài tập nâng cao đại số quan hệ (file 07) và lời giải Word.
 - `BuoiHoc/<ngày>_<chủ đề>/`: ghi hình buổi học và `GiaoBai.md` (bài được giao, nơi nộp, deadline).
+  `BuoiHoc/2026-10-23_PhanRa_BCNF_3NF/`: buổi cô chiếu bản slide chuẩn hóa mới (55 trang, repo chưa có PDF, chỉ có ảnh
+  slide 36–53 trong `Anh/`). `GhiChep.md` ở đó chép lại thuật toán phân rã BCNF, tổng hợp 3NF và giải đủ 11 bài slide 48;
+  khi giảng giai đoạn F4–F6 của lộ trình thì dùng file này.
 - `DeThi/`: hướng dẫn ra đề và ngân hàng câu hỏi chép lại từ hai bài kiểm tra; ảnh gốc nén trong `DeThi/AnhGoc/`.
 
 **Học lại từ đầu (từ 16/10/2026):** người dùng đang học theo `LoTrinhHoc.md`. Đầu mỗi phiên đọc file đó để biết đang ở

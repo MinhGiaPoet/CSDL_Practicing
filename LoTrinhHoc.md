@@ -82,11 +82,16 @@ Ký hiệu trạng thái: ⬜ chưa học · 🟨 đang học · ✅ xong.
 | F1 | Bất thường; phân rã; kết nối không mất mát; bảo toàn phụ thuộc | 09: 4–12 | ⬜ |
 | F2 | 1NF và 2NF (ví dụ hóa đơn INVOICE) | 09: 13–24 | ⬜ |
 | F3 | 3NF và BCNF; khi nào 3NF khác BCNF | 09: 25–34 | ⬜ |
+| F4 | Thuật toán phân rã BCNF; ví dụ R(A,B,C,D,E); vì sao có lúc nên dừng ở 3NF | bản 55 trang: 36–37 · `GhiChep` mục 1–2 | ⬜ |
+| F5 | Thuật toán tổng hợp 3NF; ví dụ 3NF (1) và (2) | bản 55 trang: 39, 40, 44 · `GhiChep` mục 3–6 | ⬜ |
+| F6 | Bài tập 11 lược đồ (tìm khóa, xét BCNF/3NF, phân rã) | bản 55 trang: 48–53 · `GhiChep` mục 7–9 | ⬜ |
 
-Khi cô phát slide tiếp (thuật toán phân rã BCNF, tổng hợp 3NF…), thêm bài vào giai đoạn F.
+F4–F6 học buổi 23/10/2026. Bản slide 55 trang chưa có PDF trong repo, mới có ảnh chụp và ghi chép ở
+`BuoiHoc/2026-10-23_PhanRa_BCNF_3NF/GhiChep.md`. Khi có PDF thì lưu vào `BaiGiang/Chuong3_PhuThuocHam/` và sửa lại cột Slide.
 
 ## Nhật ký
 
 - 16/10/2026: lập lộ trình, bắt đầu A1.
 - 16/10/2026: xong A1 (bạn bỏ qua câu tự kiểm tra). Tiếp theo: A2.
 - 16/10/2026: xong A2 (giảng chi tiết ngay trong chat, không lưu bài giảng ra file). Tiếp theo: A3.
+- 29/10/2026: thêm F4–F6 (phân rã BCNF, tổng hợp 3NF, bài tập slide 48) từ ảnh buổi 23/10. Tiến độ vẫn ở A3.
