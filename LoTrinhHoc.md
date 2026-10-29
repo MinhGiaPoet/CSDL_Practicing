@@ -68,8 +68,8 @@ Ký hiệu trạng thái: ⬜ chưa học · 🟨 đang học · ✅ xong.
 
 | # | Bài | Slide | |
 |---|---|---|---|
-| E1 | Vì sao cần FD; định nghĩa; FD tầm thường | 08: 11–17 | 🟨 |
-| E2 | Hệ tiên đề Armstrong và quy tắc suy diễn | 08: 18–22 | ⬜ |
+| E1 | Vì sao cần FD; định nghĩa; FD tầm thường | 08: 11–17 | ✅ |
+| E2 | Hệ tiên đề Armstrong và quy tắc suy diễn | 08: 18–22 | 🟨 |
 | E3 | Khóa, siêu khóa, thuộc tính khóa | 08: 23–26 | ⬜ |
 | E4 | Bao đóng của tập thuộc tính | 08: 27–31 | ⬜ |
 | E5 | Thuật toán tìm mọi khóa (nhóm L/M/R/N) | 08: 32–37 | ⬜ |
@@ -101,3 +101,5 @@ F4–F6 học buổi 23/10/2026. Bản slide 55 trang chưa có PDF trong repo, 
   (dị thường, định nghĩa FD, hình minh họa). Lượt sau: slide 14–17.
 - 29/10/2026: bạn hỏi lại định nghĩa FD (nhầm "duy nhất một giá trị Y" với "duy nhất một dòng"), đã giảng lại bằng cách gom nhóm
   và phân biệt FD với khóa. Giảng tiếp slide 14–17. Trả lời xong câu tự kiểm tra thì E1 xong, tiếp theo E2 (slide 18–22).
+- 29/10/2026: xong E1 (trả lời đúng cả 3 câu; lưu ý khi kiểm tra FD "trên dữ liệu" phải gom nhóm theo vế trái, đừng chỉ suy
+  theo thực tế). Tiếp theo: E2, hệ tiên đề Armstrong (slide 18–22).
