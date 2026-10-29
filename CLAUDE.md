@@ -11,8 +11,10 @@ Repo ôn tập môn Cơ sở dữ liệu (PTIT) của người dùng. Trao đổ
   (ví dụ INVOICE, Movie). Giảng lại theo cùng cách như file 08.
 - `BaiTap/RA_NangCao/`: bài tập nâng cao đại số quan hệ (file 07) và lời giải Word.
 - `BuoiHoc/<ngày>_<chủ đề>/`: ghi hình buổi học và `GiaoBai.md` (bài được giao, nơi nộp, deadline).
-  `BuoiHoc/2026-10-23_PhanRa_BCNF_3NF/`: buổi cô chiếu bản slide chuẩn hóa mới (55 trang, repo chưa có PDF, chỉ có ảnh
-  slide 36–53 trong `Anh/`). `GhiChep.md` ở đó chép lại thuật toán phân rã BCNF, tổng hợp 3NF và giải đủ 11 bài slide 48;
+  `BaiGiang/Chuong3_PhuThuocHam/10_ChuanHoa_PhanRa_BCNF_3NF.pdf` (50 trang, cô gửi 29/10): slide 1–34 trùng file 09, slide 35–48
+  là phân rã BCNF, tổng hợp 3NF, ví dụ 3NF (1)(2), 3NF nhưng không BCNF, bài tập 11 lược đồ (slide 48).
+  `BuoiHoc/2026-10-23_PhanRa_BCNF_3NF/`: buổi cô chiếu bản 55 trang (có thêm slide lời giải bài 1, 3, 11 mà bản PDF 50 trang
+  không có; ảnh trong `Anh/`). `GhiChep.md` ở đó chép lại thuật toán phân rã BCNF, tổng hợp 3NF và giải đủ 11 bài slide 48;
   khi giảng giai đoạn F4–F6 của lộ trình thì dùng file này.
 - `DeThi/`: hướng dẫn ra đề và ngân hàng câu hỏi chép lại từ hai bài kiểm tra; ảnh gốc nén trong `DeThi/AnhGoc/`.
 

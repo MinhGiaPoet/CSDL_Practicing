@@ -17,7 +17,8 @@ BaiGiang/                         Slide bài giảng, xếp theo chương
 │   └── 06_SQL_DaiSoQuanHe_RangBuoc.pdf
 └── Chuong3_PhuThuocHam/
     ├── 08_PhuThuocHam.pdf         Bài 6: phụ thuộc hàm (9/10/2026)
-    └── 09_ChuanHoa_CacDangChuan.pdf  Chuẩn hóa: 1NF, 2NF, 3NF, BCNF (16/10/2026)
+    ├── 09_ChuanHoa_CacDangChuan.pdf  Chuẩn hóa: 1NF, 2NF, 3NF, BCNF (16/10/2026)
+    └── 10_ChuanHoa_PhanRa_BCNF_3NF.pdf  Bản mở rộng của 09 (50 trang, buổi 23/10): thêm phân rã BCNF, tổng hợp 3NF, bài tập slide 48
 BaiTap/
 └── RA_NangCao/
     ├── 07_BaiTapNangCao_DaiSoQuanHe.pdf
@@ -27,7 +28,7 @@ BuoiHoc/                          Ghi hình và ghi chú từng buổi (YYYY-MM-
 │   ├── GhiHinh_19h13.mp4
 │   └── GiaoBai.md                 Bài cô giao, nộp Classroom, hạn 12h đêm thứ 2 (12/10)
 └── 2026-10-23_PhanRa_BCNF_3NF/
-    ├── Anh/                       18 ảnh: slide 36–53 (bản 55 trang) và bảng phấn chữa bài
+    ├── Anh/                       18 ảnh: slide 36–53 (bản 55 trang chiếu trên lớp) và bảng phấn chữa bài
     └── GhiChep.md                 Phân rã BCNF, tổng hợp 3NF, lời giải 11 bài slide 48
 DeThi/
 ├── HUONG_DAN_RA_DE.md            Phong cách ra đề, rút từ 2 đề thật

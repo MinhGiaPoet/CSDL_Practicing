@@ -82,12 +82,12 @@ Ký hiệu trạng thái: ⬜ chưa học · 🟨 đang học · ✅ xong.
 | F1 | Bất thường; phân rã; kết nối không mất mát; bảo toàn phụ thuộc | 09: 4–12 | ✅ |
 | F2 | 1NF và 2NF (ví dụ hóa đơn INVOICE) | 09: 13–24 | 🟨 |
 | F3 | 3NF và BCNF; khi nào 3NF khác BCNF | 09: 25–34 | 🟨 |
-| F4 | Thuật toán phân rã BCNF; ví dụ R(A,B,C,D,E); vì sao có lúc nên dừng ở 3NF | bản 55 trang: 36–37 · `GhiChep` mục 1–2 | ⬜ |
-| F5 | Thuật toán tổng hợp 3NF; ví dụ 3NF (1) và (2) | bản 55 trang: 39, 40, 44 · `GhiChep` mục 3–6 | ⬜ |
-| F6 | Bài tập 11 lược đồ (tìm khóa, xét BCNF/3NF, phân rã) | bản 55 trang: 48–53 · `GhiChep` mục 7–9 | ⬜ |
+| F4 | Thuật toán phân rã BCNF; ví dụ R(A,B,C,D,E); vì sao có lúc nên dừng ở 3NF | 10: 35–38 · `GhiChep` mục 1–2 | ⬜ |
+| F5 | Thuật toán tổng hợp 3NF; ví dụ 3NF (1) và (2) | 10: 39–47 · `GhiChep` mục 3–6 | ⬜ |
+| F6 | Bài tập 11 lược đồ (tìm khóa, xét BCNF/3NF, phân rã) | 10: 48 · `GhiChep` mục 7–9 | ⬜ |
 
-F4–F6 học buổi 23/10/2026. Bản slide 55 trang chưa có PDF trong repo, mới có ảnh chụp và ghi chép ở
-`BuoiHoc/2026-10-23_PhanRa_BCNF_3NF/GhiChep.md`. Khi có PDF thì lưu vào `BaiGiang/Chuong3_PhuThuocHam/` và sửa lại cột Slide.
+F4–F6 học buổi 23/10/2026. PDF cô gửi 29/10 là `10_ChuanHoa_PhanRa_BCNF_3NF.pdf` (50 trang, không có các slide lời giải
+bài 1, 3, 11 mà buổi học chiếu); lời giải đủ 11 bài ở `BuoiHoc/2026-10-23_PhanRa_BCNF_3NF/GhiChep.md`.
 
 ## Nhật ký
 

@@ -4,7 +4,8 @@ Nguồn: 18 ảnh trong `Anh/`, gồm slide cô chiếu và các bảng phấn c
 
 Hôm nay cô chiếu **bản slide mới, 55 trang**. Đây là bản mở rộng của `BaiGiang/Chuong3_PhuThuocHam/09_ChuanHoa_CacDangChuan.pdf`
 (file đó có 34 trang): slide 32–34 của file 09 là ví dụ R(A,B,C,D,E), và slide 37 của bản mới làm tiếp đúng ví dụ ấy.
-**Repo chưa có PDF bản 55 trang.** Ảnh chỉ chụp được các slide 36, 37, 39, 40, 44, 48, 50, 51, 53.
+**Cập nhật 29/10:** cô gửi PDF bản 50 trang, lưu ở `BaiGiang/Chuong3_PhuThuocHam/10_ChuanHoa_PhanRa_BCNF_3NF.pdf`
+(slide 35–48 trùng số với bản chiếu trên lớp, nhưng không có các slide lời giải 50–53). Trước đó repo chỉ có ảnh. Ảnh chỉ chụp được các slide 36, 37, 39, 40, 44, 48, 50, 51, 53.
 
 Quy ước giống `LoTrinhHoc.md`:
 - **📄 Slide nói**: nội dung trên slide hoặc trên bảng của lớp, chép đúng ý.
@@ -493,7 +494,7 @@ Khóa {A,C}. G = F cho (A,B) và (C,D). Không bảng nào là siêu khóa, nên
 
 ## 10. Còn thiếu
 
-- **Chưa có PDF bản 55 trang.** Chưa có ảnh các slide 35, 38, 41–43, 45–47, 49, 52, 54–55. Nhiều khả năng đó là lời giải ví dụ
-  3NF (1) và (2), lời giải các bài 2, 4–10 và phần tổng kết. Nếu cô đăng bản này lên Classroom, tải về và lưu vào
-  `BaiGiang/Chuong3_PhuThuocHam/` để đối chiếu lại mục 4, 5 và 7.
+- PDF bản 50 trang (file 10) đã có. Đối chiếu: slide 41–42 (ví dụ 3NF (1)) và 45 (ví dụ 3NF (2)) khớp với lời giải bổ sung ở
+  mục 4, 5. Bản PDF không có slide lời giải bài 1, 3, 11 (slide 50, 51, 53 bản chiếu trên lớp); các bài 2, 4–10 vẫn chỉ có
+  lời giải bổ sung và ảnh bảng phấn.
 - Ảnh không cho biết cô có giao bài về nhà hay không, và hạn nộp là khi nào.
