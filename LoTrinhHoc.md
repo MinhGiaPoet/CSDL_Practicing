@@ -95,3 +95,5 @@ F4–F6 học buổi 23/10/2026. Bản slide 55 trang chưa có PDF trong repo, 
 - 16/10/2026: xong A1 (bạn bỏ qua câu tự kiểm tra). Tiếp theo: A2.
 - 16/10/2026: xong A2 (giảng chi tiết ngay trong chat, không lưu bài giảng ra file). Tiếp theo: A3.
 - 29/10/2026: thêm F4–F6 (phân rã BCNF, tổng hợp 3NF, bài tập slide 48) từ ảnh buổi 23/10. Tiến độ vẫn ở A3.
+- 29/10/2026: bạn xin giảng lại file 08 từ đầu, mỗi lượt vài slide, giảng dễ hiểu, giải nghĩa từng ký hiệu. Đã giảng slide 1–3
+  (mục tiêu bài, ràng buộc = "tập vi phạm phải rỗng"). Lượt sau: slide 4–10 (bài ôn RA) hoặc nhảy tới slide 11 (E1), tùy bạn chọn.
