@@ -70,8 +70,8 @@ Ký hiệu trạng thái: ⬜ chưa học · 🟨 đang học · ✅ xong.
 |---|---|---|---|
 | E1 | Vì sao cần FD; định nghĩa; FD tầm thường | 08: 11–17 | ✅ |
 | E2 | Hệ tiên đề Armstrong và quy tắc suy diễn | 08: 18–22 | ✅ |
-| E3 | Khóa, siêu khóa, thuộc tính khóa | 08: 23–26 | 🟨 |
-| E4 | Bao đóng của tập thuộc tính | 08: 27–31 | ⬜ |
+| E3 | Khóa, siêu khóa, thuộc tính khóa | 08: 23–26 | ✅ |
+| E4 | Bao đóng của tập thuộc tính | 08: 27–31 | 🟨 |
 | E5 | Thuật toán tìm mọi khóa (nhóm L/M/R/N) | 08: 32–37 | ⬜ |
 | E6 | Phủ tối thiểu, phép chiếu FD + bài tập slide 44 | 08: 38–45 | ⬜ |
 
@@ -107,3 +107,5 @@ F4–F6 học buổi 23/10/2026. Bản slide 55 trang chưa có PDF trong repo, 
   Bạn có đưa ảnh đề test 8 (FD) lên `DeThi/test8/` nhưng chọn vẫn học đủ theo lộ trình, không rút gọn. Trả lời xong câu tự
   kiểm tra thì E2 xong, tiếp theo E3.
 - 29/10/2026: xong E2 (4/4 câu đúng ý; cần tập gọi tên quy tắc cho từng bước, nhất là phản xạ). Tiếp theo: E3 (slide 23–26).
+- 29/10/2026: xong E3 (sai câu {title, starName}: tưởng là khóa vì bảng mẫu không có cặp trùng; câu thuộc tính khóa bạn nhờ
+  Claude trả lời luôn). Đã bổ sung khái niệm thuộc tính khóa/không khóa. Bắt đầu E4: giảng slide 28–31.
