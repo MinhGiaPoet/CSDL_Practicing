@@ -79,9 +79,9 @@ Ký hiệu trạng thái: ⬜ chưa học · 🟨 đang học · ✅ xong.
 
 | # | Bài | Slide | |
 |---|---|---|---|
-| F1 | Bất thường; phân rã; kết nối không mất mát; bảo toàn phụ thuộc | 09: 4–12 | 🟨 |
-| F2 | 1NF và 2NF (ví dụ hóa đơn INVOICE) | 09: 13–24 | ⬜ |
-| F3 | 3NF và BCNF; khi nào 3NF khác BCNF | 09: 25–34 | ⬜ |
+| F1 | Bất thường; phân rã; kết nối không mất mát; bảo toàn phụ thuộc | 09: 4–12 | ✅ |
+| F2 | 1NF và 2NF (ví dụ hóa đơn INVOICE) | 09: 13–24 | 🟨 |
+| F3 | 3NF và BCNF; khi nào 3NF khác BCNF | 09: 25–34 | 🟨 |
 | F4 | Thuật toán phân rã BCNF; ví dụ R(A,B,C,D,E); vì sao có lúc nên dừng ở 3NF | bản 55 trang: 36–37 · `GhiChep` mục 1–2 | ⬜ |
 | F5 | Thuật toán tổng hợp 3NF; ví dụ 3NF (1) và (2) | bản 55 trang: 39, 40, 44 · `GhiChep` mục 3–6 | ⬜ |
 | F6 | Bài tập 11 lược đồ (tìm khóa, xét BCNF/3NF, phân rã) | bản 55 trang: 48–53 · `GhiChep` mục 7–9 | ⬜ |
@@ -114,3 +114,5 @@ F4–F6 học buổi 23/10/2026. Bản slide 55 trang chưa có PDF trong repo, 
   bổ sung). Còn lại: phép chiếu FD (slide 40–41), bài tập slide 44.
 - 29/10/2026: E6 mới giảng phủ tối thiểu (giảng lại bằng hình "đường tắt", thêm tầm thường/không tầm thường, đối chiếu 5 câu
   test 8); bạn xin sang file 09 nên phép chiếu FD (slide 40–41) và bài tập slide 44 để lại, E6 vẫn 🟨. Bắt đầu F1: slide 1–8.
+- 29/10/2026: xong F1 (giảng slide 9–12; bạn bỏ câu tự kiểm tra). Bạn xin giảng gộp 1NF/2NF/3NF/BCNF trong một lượt
+  (slide 13–34, ví dụ INVOICE và R(A,B,C,D,E)). Trả lời câu tự kiểm tra thì F2, F3 xong; tiếp theo F4 (dùng GhiChep 23/10).
