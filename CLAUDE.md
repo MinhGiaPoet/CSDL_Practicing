@@ -2,7 +2,10 @@
 
 Repo ôn tập môn Cơ sở dữ liệu (PTIT) của người dùng. Trao đổi bằng tiếng Việt. Cấu trúc thư mục xem `README.md`.
 
-- `BaiGiang/`: slide bài giảng theo chương (file 01–06, 08, 09).
+- `BaiGiang/`: slide bài giảng theo chương (file 01–06, 08, 09, 11).
+  `BaiGiang/Chuong2_MoHinhDuLieu/11_SQL_TruyVanCoBan.pdf`: SQL truy vấn cơ bản (SELECT một bảng, NULL, ORDER BY, các
+  loại JOIN, biến bộ, UNION/INTERSECT/EXCEPT). `11_SQL_TruyVanCoBan_BangTraCuu.md` cạnh đó là bảng cú pháp và quy tắc
+  thực dụng rút từ file này; khi người dùng hỏi cú pháp SQL hoặc nhờ ra bài SQL thì dùng file đó.
   `BaiGiang/Chuong3_PhuThuocHam/08_PhuThuocHam.pdf` là Chương 3, Bài 6 "Phụ thuộc hàm": ôn RA và ràng buộc, định nghĩa FD,
   hệ tiên đề Armstrong, khóa và siêu khóa, bao đóng, thuật toán tìm mọi khóa, phủ tối thiểu, phép chiếu FD.
   Khi người dùng nhờ giảng lại bài này: giảng từng phần ngắn, có ví dụ và câu tự kiểm tra, bám theo slide.

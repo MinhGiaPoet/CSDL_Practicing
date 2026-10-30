@@ -14,7 +14,9 @@ BaiGiang/                         Slide bài giảng, xếp theo chương
 │   ├── 03_MoHinhThucTheLienKet_ER.pdf
 │   ├── 04_ER_TinhChinh_EER.pdf
 │   ├── 05_MoHinhQuanHe_AnhXaER.pdf
-│   └── 06_SQL_DaiSoQuanHe_RangBuoc.pdf
+│   ├── 06_SQL_DaiSoQuanHe_RangBuoc.pdf
+│   ├── 11_SQL_TruyVanCoBan.pdf    SQL truy vấn cơ bản: SELECT, WHERE, NULL, ORDER BY, JOIN, UNION
+│   └── 11_SQL_TruyVanCoBan_BangTraCuu.md  Bảng cú pháp + quy tắc để code SQL, lọc từ file 11
 └── Chuong3_PhuThuocHam/
     ├── 08_PhuThuocHam.pdf         Bài 6: phụ thuộc hàm (9/10/2026)
     └── 09_ChuanHoa_CacDangChuan.pdf  Chuẩn hóa: 1NF, 2NF, 3NF, BCNF (16/10/2026)

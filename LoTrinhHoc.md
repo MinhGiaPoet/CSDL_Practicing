@@ -89,9 +89,22 @@ Ký hiệu trạng thái: ⬜ chưa học · 🟨 đang học · ✅ xong.
 F4–F6 học buổi 23/10/2026. Bản slide 55 trang chưa có PDF trong repo, mới có ảnh chụp và ghi chép ở
 `BuoiHoc/2026-10-23_PhanRa_BCNF_3NF/GhiChep.md`. Khi có PDF thì lưu vào `BaiGiang/Chuong3_PhuThuocHam/` và sửa lại cột Slide.
 
+## Giai đoạn G. SQL truy vấn cơ bản (file 11)
+
+Có bảng tra cứu sẵn: `BaiGiang/Chuong2_MoHinhDuLieu/11_SQL_TruyVanCoBan_BangTraCuu.md`.
+
+| # | Bài | Slide | |
+|---|---|---|---|
+| G1 | Thứ tự xử lý mệnh đề; SELECT, bí danh, DISTINCT; WHERE và các toán tử | 11: 8–18 | ⬜ |
+| G2 | Chuỗi, LIKE, ngày giờ | 11: 19–22 | ⬜ |
+| G3 | NULL và logic ba giá trị; ORDER BY | 11: 23–28 | ⬜ |
+| G4 | Tích Đề-các, inner/theta join, outer join | 11: 29–40 | ⬜ |
+| G5 | Tên trùng, biến bộ; UNION/INTERSECT/EXCEPT; bài tập có lời giải | 11: 41–48 | ⬜ |
+
 ## Nhật ký
 
 - 16/10/2026: lập lộ trình, bắt đầu A1.
 - 16/10/2026: xong A1 (bạn bỏ qua câu tự kiểm tra). Tiếp theo: A2.
 - 16/10/2026: xong A2 (giảng chi tiết ngay trong chat, không lưu bài giảng ra file). Tiếp theo: A3.
 - 29/10/2026: thêm F4–F6 (phân rã BCNF, tổng hợp 3NF, bài tập slide 48) từ ảnh buổi 23/10. Tiến độ vẫn ở A3.
+- 30/10/2026: thêm file 11 (SQL truy vấn cơ bản) và bảng tra cứu cú pháp; thêm giai đoạn G. Tiến độ vẫn ở A3.
