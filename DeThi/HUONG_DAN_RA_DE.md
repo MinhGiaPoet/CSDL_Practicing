@@ -1,14 +1,16 @@
-# Hướng dẫn ra đề luyện CSDL (rút ra từ 2 đề thật)
+# Hướng dẫn ra đề luyện CSDL (rút ra từ 3 đề thật)
 
-Tài liệu này mô tả cách giảng viên ra đề trắc nghiệm môn Cơ sở dữ liệu (PTIT, hệ thống `db.ptit.edu.vn`),
-rút ra từ hai bài kiểm tra thật:
+Tài liệu này mô tả cách giảng viên ra đề môn Cơ sở dữ liệu (PTIT), rút ra từ ba bài kiểm tra thật:
+hai bài trắc nghiệm trên hệ thống `db.ptit.edu.vn` và một đề giữa kỳ in giấy.
 
-| Bài | Tên trên hệ thống | Số câu | Nguồn ảnh | Ngân hàng chép lại |
+| Bài | Tên | Số câu | Nguồn ảnh | Ngân hàng chép lại |
 |---|---|---|---|---|
-| Test 1 | "Chương 1 và Mô hình EER" | 55 | `AnhGoc/Test1_EER_FirstTestCSDL.7z` (32 ảnh) | `NganHang_Test1_EER.md` |
-| Test 2 (9/10/2026) | "RA - ATTT" | 74, khoảng 70 phút | `AnhGoc/Test2_RA_2026-10-09.rar` (75 ảnh) | `NganHang_Test2_RA.md` |
+| Test 1 | "Chương 1 và Mô hình EER" (hệ thống) | 55 | `AnhGoc/Test1_EER_FirstTestCSDL.7z` (32 ảnh) | `NganHang_Test1_EER.md` |
+| Test 2 (9/10/2026) | "RA - ATTT" (hệ thống) | 74, khoảng 70 phút | `AnhGoc/Test2_RA_2026-10-09.rar` (75 ảnh) | `NganHang_Test2_RA.md` |
+| Giữa kỳ, mã đề 104 (ảnh gửi 30/10/2026) | "Đề thi giữa kỳ — Lớp tài năng ATTT" (giấy) | 6 phần A–F, 90 phút, thang 10 | `AnhGoc/GiuaKy_MaDe104.7z` (7 ảnh) | `NganHang_GiuaKy_MaDe104.md`; bản dựng lại PDF/Word trong `GiuaKy_MaDe104/` |
 
 Khi được nhờ tạo đề luyện: đọc file này, xem vài câu mẫu trong ngân hàng, rồi ra đề theo đúng các quy tắc dưới đây.
+Mục 1–7 là đề trắc nghiệm kiểu hệ thống (Test 1, Test 2). **Đề giữa kỳ / đề thi thử trên giấy** theo mục 8.
 
 ---
 
@@ -137,7 +139,8 @@ Mỗi câu có 1 đáp án đúng và 3 đáp án nhiễu, mỗi đáp án nhi�
   ISA chồng lấp → bảng cha + bảng con PK/FK→cha, FK phải tham chiếu PK hoặc UNIQUE, khóa ứng viên cần UNIQUE.
 
 ## 7. Quy trình tạo một đề luyện
-1. Hỏi (hoặc mặc định) số câu; mặc định 30 câu, ~70% RA, ~15% lý thuyết RA, ~15% ER/khóa.
+1. Hỏi (hoặc mặc định) dạng đề: trắc nghiệm kiểu hệ thống (mục 1–6) hay đề giữa kỳ trên giấy (mục 8).
+   Với dạng trắc nghiệm: hỏi số câu; mặc định 30 câu, ~70% RA, ~15% lý thuyết RA, ~15% ER/khóa.
 2. Dùng lược đồ ở mục 2.2; có thể thêm một lược đồ mới cùng phong cách (ví dụ thư viện, bệnh viện)
    để tránh học vẹt, nhưng giữ cách viết "TABLE(...): Chứa thông tin ...".
 3. Với mỗi câu RA: viết đáp án đúng trước, rồi tạo 3 đáp án nhiễu, **mỗi cái dính một lỗi khác nhau** từ bảng mục 4.
@@ -145,3 +148,68 @@ Mỗi câu có 1 đáp án đúng và 3 đáp án nhiễu, mỗi đáp án nhi�
 5. **Tự kiểm tra từng câu**: đáp án đúng phải đúng cả khi có đối tượng không có bản ghi nào (lỗi D7),
    khi tên không duy nhất, và các đáp án nhiễu phải thực sự sai (không có hai đáp án cùng đúng).
 6. Xuất đề và đáp án tách riêng (đề trước, bảng đáp án + giải thích ngắn ở cuối hoặc file riêng).
+
+## 8. Đề giữa kỳ trên giấy (mẫu: mã đề 104, lớp tài năng ATTT)
+
+Đề in giấy, cô soạn bằng LaTeX, phạm vi từ ánh xạ ER tới chuẩn hóa. Khác hẳn đề hệ thống: **trắc nghiệm chỉ còn 1,8 điểm**,
+phần lớn điểm nằm ở các ô điền (bao đóng, K/S/N, Đ/S, khóa chính, toán tử) và hai câu tự luận ngắn có giới hạn số dòng.
+Chi tiết từng câu và đáp án: `NganHang_GiuaKy_MaDe104.md`.
+
+### 8.1. Hình thức trình bày
+- A4, chữ Latin Modern (LaTeX) 11pt. Đầu trang: trái "CSDL INT1313  Mã đề 104", phải "Giữa kỳ — Lớp tài năng ATTT", có kẻ ngang.
+  Chân trang: "Trang i/7 — Mã đề 104".
+- Khối tiêu đề 4 dòng, căn giữa: "Học viện Công nghệ Bưu chính Viễn thông — Khoa Trí tuệ Nhân tạo" (chữ hoa nhỏ),
+  "ĐỀ THI GIỮA KỲ — CƠ SỞ DỮ LIỆU (INT1313)", "Lớp tài năng ngành An toàn thông tin — MÃ ĐỀ 104",
+  "Thời gian: 90 phút | Không sử dụng tài liệu | Thang điểm 10".
+- Khung **QUY ĐỊNH TRÌNH BÀY** (giữ nguyên văn 5 điều): chỉ phiếu trả lời 2 trang cuối được chấm; tập thuộc tính viết liền theo
+  thứ tự chữ cái (`ABCD`, không viết `{B,A,D,C}`); mỗi ô một đáp án; F1 tối đa 3 dòng, F2 tối đa 4 dòng; không dùng bút chì.
+- Đề 3 trang (trang 1: quy định + câu 1–9; trang 2: câu 10–12, Phần B, C; trang 3: Phần D, E, F), tổng 7 trang,
+  2 trang cuối là phiếu trả lời.
+- Tiêu đề phần: "**PHẦN B. Phụ thuộc hàm** *(2,8 điểm)*". Câu con: "**B1. Bao đóng** *(0,8 điểm)* — yêu cầu…".
+  Dưới mỗi bảng có một dòng chữ nhỏ ghi **cách tính điểm** ("*Tính điểm:* đúng cả 8 = 1,2; sai 1–2 ô = 0,6; sai từ 3 ô = 0").
+- Tên bảng, cột, hằng chuỗi viết chữ máy chữ (`MauTinHieu`, `'APT'`); thuộc tính khóa gạch chân, khóa ngoại nằm trong khóa
+  gạch chân + nghiêng. FD viết $X\to Y$, bao đóng $\{X\}^+$, phép chiếu FD $\pi_S(F)$.
+- **Nhiều mã đề**: các mã dùng chung khung và vai trò từng ô, chỉ đổi bối cảnh và chi tiết. Mã 104: an ninh mạng
+  (ChuyenVien, MauTinHieu, MaDoc, ChuKy; F phần C/F là $\{A\to B, BD\to A\}$). Mã 103: phòng máy (QuanTriVien, PhongMay,
+  QuyenHan, NhatKy; $\{A\to B, BC\to A\}$). Khi ra nhiều mã đề luyện, giữ khung, đổi tên thực thể và đổi thuộc tính trong FD.
+
+### 8.2. Cấu trúc và thang điểm
+
+| Phần | Điểm | Dạng câu | Cách chấm |
+|---|---|---|---|
+| A. Trắc nghiệm | 1,8 | 12 câu, **3 phương án A/B/C**, có câu đặt phương án trên một dòng | 0,15/câu |
+| B. Phụ thuộc hàm | 2,8 | Một lược đồ 6 thuộc tính, 4 FD. B1: bao đóng 4 tập (0,8). B2: phân loại 8 tập K/S/N (1,2). B3: khoanh các số thuộc phủ tối thiểu trong 10 FD (0,8) | B2 chấm theo số ô sai; B3 trừ 0,2 mỗi số thừa/thiếu |
+| C. Phân rã | 2,0 | C1: lược đồ 4 thuộc tính, 4 phép phân rã × 2 cột Đ/S (không mất mát? bảo toàn phụ thuộc?) (1,2). C2: 8 FD, Đ nếu thuộc $\pi_{S}(F)$ của lược đồ Phần B (0,8) | 0,15 và 0,1 mỗi ô; bỏ trống tính sai |
+| D. ER → quan hệ | 1,2 | Sơ đồ ER + 8 quan hệ ứng viên: Đ/S, nếu Đ ghi khóa chính | 0,15/ô, phải đúng cả Đ/S và khóa |
+| E. Đại số quan hệ | 1,0 | 5 ô trống trong biểu thức cho sẵn, dùng 3 bảng lấy từ sơ đồ Phần D | 0,2/ô |
+| F. Tự luận ngắn | 1,2 | Dùng lại lược đồ C1. F1: chứng minh đạt 3NF. F2: BCNF? (a) FD vi phạm (b) phân rã (c) FD bị mất | 0,6 + 0,6; viết quá số dòng không chấm |
+
+### 8.3. Cách thiết kế từng phần (để ra đề luyện cùng kiểu)
+- **A**: câu định nghĩa có bẫy chữ, phương án nhiễu là phát biểu gần đúng: "tập con" thay "tập con *thực sự*",
+  "cả hai quan hệ con" thay "ít nhất một", "$R_1\cap R_2\neq\varnothing$", "không cần thêm điều kiện" cho bắc cầu.
+  Các ý hay hỏi: khóa bảng M:N có thuộc tính riêng; BCNF chỉ bảo đảm không mất mát; điều kiện bắc cầu $Y\nrightarrow X$, $Z\notin XY$;
+  $R(A,B,C)$ với $A\to B, B\to C$ đạt 2NF không đạt 3NF; quy tắc sai $XY\to Z\Rightarrow X\to Z$; lược đồ 2 thuộc tính luôn BCNF;
+  Heath; không mất mát không kéo theo bảo toàn; một thể hiện thỏa FD thì "chưa kết luận được gì"; $\pi_S(F)$ có thể chứa FD
+  không có trong $F$; thuộc tính không xuất hiện trong $F$ thuộc mọi khóa.
+- **B**: chọn $F$ sao cho có thuộc tính chỉ ở vế trái và thuộc tính không xuất hiện (mọi khóa chứa chúng), có một FD vế phải
+  2 thuộc tính (để B3 phải tách) và có **3 khóa ứng viên**. B1 gồm: tập nhỏ, tập "suýt" ra $R$, một khóa.
+  B2: 3 khóa (K), 2 tập = khóa + 1 thuộc tính (S), 3 tập không phải siêu khóa (N). B3: 10 FD trộn đủ ba loại:
+  FD của phủ (đã tách vế phải), FD suy diễn được nhưng thừa ($AB\to D$, $AE\to B$, FD chưa tách $E\to DG$), FD không suy diễn được.
+  Nói rõ "phủ tối thiểu là duy nhất" để chỉ có một đáp án.
+- **C1**: $R(A,B,C,D)$ với $F=\{A\to B,\ BX\to A\}$ ($B$ nằm ở vế trái của FD suy ra $A$, tạo vòng) để có 2 khóa,
+  đạt 3NF mà không đạt BCNF.
+  Bốn phép phân rã phủ đủ 4 tổ hợp (Đ,Đ), (Đ,S), (S,Đ), (S,S). **C2**: 8 FD trên tập con, khoảng nửa Đ, có FD chỉ suy ra được
+  khi đi qua thuộc tính nằm ngoài tập chiếu ($AE\to B$ qua $E\to D$).
+- **D**: sơ đồ có đủ: liên kết đệ quy 1:N, hai liên kết 1:N, một M:N có thuộc tính, một thuộc tính đa trị, một thực thể yếu.
+  Ghi chú ký hiệu và **quy ước đặt tên khóa ngoại** để đáp án duy nhất. 8 quan hệ: 5 đúng, 3 sai, mỗi cái sai đúng một lỗi
+  (gộp thực thể phía N vào phía 1; thực thể yếu thiếu khóa thực thể chủ; giữ thuộc tính đa trị trong bảng).
+- **E**: E1–E3 điền vào khung $\pi_{E1}(T_1 \bowtie (\sigma_{E2}(T_{lk}) \bowtie \sigma_{E3}(T_2)))$: cột cần lấy, điều kiện trạng thái
+  trên bảng liên kết, điều kiện loại trên bảng kia. E4 câu "**không** có … nào" → $-$. E5 câu "**mọi** …" → $\div$.
+- **F**: F1 yêu cầu đủ 3 ý (khóa, thuộc tính khóa, xét từng FD). F2 có cả hai FD vi phạm BCNF; phân rã theo $A\to B$ được
+  $\{AB, ACD\}$ và mất FD còn lại.
+
+### 8.4. Dựng file đề
+- Khung có sẵn: `GiuaKy_MaDe104/nguon/` (LaTeX cho PDF, `taoDocx.js` cho Word, `build.sh` dựng cả hai).
+  Ra đề mới: sao chép thư mục, sửa nội dung trong `.tex` và `taoDocx.js` (sơ đồ ER trong `SoDoER_*.tex`), chạy `build.sh`.
+- Đáp án để file riêng (`.md`), không in vào đề. Tự kiểm tra: tính lại bao đóng, khóa, phủ tối thiểu, phép chiếu; mỗi ô chỉ
+  có một đáp án đúng; câu F làm được trong số dòng cho phép.

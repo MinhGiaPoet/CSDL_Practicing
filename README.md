@@ -30,12 +30,18 @@ BuoiHoc/                          Ghi hình và ghi chú từng buổi (YYYY-MM-
     ├── Anh/                       18 ảnh: slide 36–53 (bản 55 trang) và bảng phấn chữa bài
     └── GhiChep.md                 Phân rã BCNF, tổng hợp 3NF, lời giải 11 bài slide 48
 DeThi/
-├── HUONG_DAN_RA_DE.md            Phong cách ra đề, rút từ 2 đề thật
+├── HUONG_DAN_RA_DE.md            Phong cách ra đề, rút từ 3 đề thật (mục 8: đề giữa kỳ trên giấy)
 ├── NganHang_Test1_EER.md
 ├── NganHang_Test2_RA.md
+├── NganHang_GiuaKy_MaDe104.md    Đề giữa kỳ mã 104: đáp án, nhận xét bài làm, biến thể mã 103
+├── GiuaKy_MaDe104/               Đề giữa kỳ dựng lại từ ảnh, chữ bôi đen được
+│   ├── DeGiuaKy_CSDL_MaDe104.pdf
+│   ├── DeGiuaKy_CSDL_MaDe104.docx
+│   └── nguon/                     LaTeX (PDF), taoDocx.js (Word), build.sh dựng lại cả hai
 └── AnhGoc/                       Ảnh chụp đề thật (nén)
     ├── Test1_EER_FirstTestCSDL.7z
-    └── Test2_RA_2026-10-09.rar
+    ├── Test2_RA_2026-10-09.rar
+    └── GiuaKy_MaDe104.7z          7 ảnh đề giữa kỳ (ảnh 04 là trang 3 mã đề 103)
 ```
 
 ## Quy ước

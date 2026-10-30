@@ -1,0 +1,64 @@
+% Sơ đồ ER Phần D, mã đề 104. Toạ độ đo trên ảnh chụp đề gốc (đơn vị: pixel ảnh).
+% Vẽ ở cỡ lớn rồi thu nhỏ 0,65 lần, giống cách đề gốc thu nhỏ hình.
+\scalebox{0.65}{\begin{tikzpicture}[x=0.01323cm,y=-0.01323cm,font=\fontsize{9.6}{11}\selectfont,
+  ent/.style={draw,thick,fill=black!13,inner sep=0pt},
+  rel/.style={draw,diamond,fill=white,inner sep=0pt},
+  att/.style={draw,ellipse,fill=white,inner sep=0pt,minimum height=0.38cm},
+  every label/.style={font=\fontsize{8.6}{10}\selectfont,inner sep=0pt},
+  card/.style={font=\fontsize{8}{9}\selectfont,inner sep=1pt}]
+% Toạ độ đo trực tiếp trên ảnh chụp (đơn vị: pixel ảnh)
+% --- ChuyenVien, TruongNhom (đệ quy), SoHuu, TaiKhoanPT
+\node[ent,minimum width=1.97cm,minimum height=0.65cm] (cv) at (513,300) {ChuyenVien};
+\node[rel,minimum width=2.28cm,minimum height=1.11cm,shape aspect=2.06,label={[font=\fontsize{9}{10}\selectfont]center:TruongNhom}] (tn) at (510,157) {};
+\node[att,minimum width=1.20cm,label={center:\underline{MaCV}}] (macv) at (287,255) {};
+\node[att,minimum width=1.20cm,label={center:HoTen}] (hoten) at (287,317) {};
+\node[att,minimum width=1.11cm,label={center:Email}] (email) at (287,377) {};
+\draw (macv) -- (cv); \draw (hoten) -- (cv); \draw (email) -- (cv);
+\draw (cv.north west) .. controls (395,250) and (390,175) .. (tn.west);
+\draw (cv.north east) .. controls (630,250) and (630,175) .. (tn.east);
+\node[card] at (390,233) {1};
+\node[card] at (625,217) {N};
+\node[rel,minimum width=1.42cm,minimum height=0.68cm,shape aspect=2.09,label={[font=\fontsize{9}{10}\selectfont]center:SoHuu}] (sh) at (515,420) {};
+\node[ent,minimum width=2.12cm,minimum height=0.69cm] (tk) at (513,528) {TaiKhoanPT};
+\draw (cv) -- (sh); \draw (sh) -- (tk);
+\node[card] at (506,360) {1};
+\node[card] at (503,476) {N};
+\node[att,minimum width=1.26cm,label={center:\underline{MaTK}}] (matk) at (378,602) {};
+\node[att,minimum width=2.58cm,label={center:TenDangNhap}] (tdn) at (650,592) {};
+\draw (matk) -- (tk); \draw (tdn) -- (tk);
+% --- PhuTrach, MauTinHieu
+\node[rel,minimum width=1.72cm,minimum height=0.86cm,shape aspect=2.00,label={[font=\fontsize{9}{10}\selectfont]center:PhuTrach}] (pt) at (757,286) {};
+\node[ent,minimum width=2.06cm,minimum height=0.72cm] (mth) at (1000,265) {MauTinHieu};
+\draw (cv) -- (pt); \draw (pt) -- (mth);
+\node[card] at (637,276) {1};
+\node[card] at (873,260) {N};
+\node[att,minimum width=1.38cm,label={center:\underline{MaMau}}] (mamau) at (877,180) {};
+\node[att,minimum width=1.46cm,label={center:TenMau}] (tenmau) at (993,122) {};
+\node[att,minimum width=1.49cm,label={center:MaHash}] (mahash) at (1120,158) {};
+\draw (mamau) -- (mth); \draw (tenmau) -- (mth); \draw (mahash) -- (mth);
+\node[att,double,double distance=0.8pt,minimum width=1.23cm,label={center:HanhVi}] (hv) at (1003,391) {};
+\draw (mth) -- (hv);
+% --- PhatHien (M:N), MaDoc
+\node[rel,minimum width=1.72cm,minimum height=0.86cm,shape aspect=2.00,label={[font=\fontsize{9}{10}\selectfont]center:PhatHien}] (ph) at (1245,248) {};
+\node[ent,minimum width=1.92cm,minimum height=0.77cm] (md) at (1495,225) {MaDoc};
+\draw (mth) -- (ph); \draw (ph) -- (md);
+\node[card] at (1127,240) {M};
+\node[card] at (1367,222) {N};
+\node[att,minimum width=2.55cm,label={center:NgayPhatHien}] (nph) at (1162,378) {};
+\node[att,minimum width=1.91cm,label={center:TrangThai}] (tt) at (1345,368) {};
+\draw (ph) -- (nph); \draw (ph) -- (tt);
+\node[att,minimum width=1.14cm,label={center:\underline{MaHo}}] (maho) at (1367,138) {};
+\node[att,minimum width=2.83cm,label={center:DiemNguyHiem}] (dnh) at (1488,75) {};
+\node[att,minimum width=1.78cm,label={center:PhanLoai}] (pl) at (1620,108) {};
+\draw (maho) -- (md); \draw (dnh) -- (md); \draw (pl) -- (md);
+% --- Co (liên kết định danh), ChuKy (thực thể yếu)
+\node[rel,double,double distance=0.8pt,minimum width=1.14cm,minimum height=0.52cm,shape aspect=2.18,label={[font=\fontsize{9}{10}\selectfont]center:Co}] (co) at (1500,353) {};
+\node[ent,double,double distance=1.3pt,minimum width=1.85cm,minimum height=0.74cm] (ck) at (1508,475) {ChuKy};
+\draw[double,double distance=0.9pt] (md) -- (co);
+\draw[double,double distance=0.9pt] (co) -- (ck);
+\node[card] at (1515,293) {1};
+\node[card] at (1517,410) {N};
+\node[att,minimum width=1.38cm,label={center:\underline{\textit{SoHieu}}}] (sohieu) at (1742,410) {};
+\node[att,minimum width=2.65cm,label={center:NgayCapNhat}] (ncn) at (1748,492) {};
+\draw (ck) -- (sohieu); \draw (ck) -- (ncn);
+\end{tikzpicture}}
