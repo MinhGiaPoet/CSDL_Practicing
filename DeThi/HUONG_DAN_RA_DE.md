@@ -209,7 +209,14 @@ Chi tiết từng câu và đáp án: `NganHang_GiuaKy_MaDe104.md`.
   $\{AB, ACD\}$ và mất FD còn lại.
 
 ### 8.4. Dựng file đề
-- Khung có sẵn: `GiuaKy_MaDe104/nguon/` (LaTeX cho PDF, `taoDocx.js` cho Word, `build.sh` dựng cả hai).
-  Ra đề mới: sao chép thư mục, sửa nội dung trong `.tex` và `taoDocx.js` (sơ đồ ER trong `SoDoER_*.tex`), chạy `build.sh`.
+- **Cách nhanh (khuyên dùng):** bộ sinh đề `DeLuyen_GiuaKy/nguon/` (đã sinh 5 đề thi thử mã 201–205).
+  Thêm một mục vào `DE` trong `cacDe.py` (F Phần B, C1; các tập B1/B2/B3/C2; tên thực thể theo vai trò sơ đồ;
+  danh sách quan hệ Phần D; câu Phần E; 12 mã câu từ `nganHangA.py`), rồi chạy `build.sh`. `taoDe.py` tự tính
+  mọi đáp án và **dừng báo lỗi** nếu đề lệch khung: Phần B không đúng 3 khóa, phủ tối thiểu không duy nhất, B2 không
+  đủ 3 K / 2 S / 3 N, C1 không phủ đủ 4 tổ hợp Đ/S, lược đồ Phần F không đạt 3NF hoặc đã đạt BCNF, Phần D không đủ 5 đúng 3 sai.
+- Khoảng cách giữa các đề (theo cặp mã 103/104 của cô): giữ nguyên khung và vai trò từng ô; đổi bối cảnh ER, đổi thứ tự
+  và kiểu lỗi của 8 quan hệ Phần D, đổi F (vẫn giữ tính chất), xáo vị trí đáp án Phần A cho đều A/B/C, có đề đổi chỗ
+  câu "không" (−) và câu "mọi" (÷) ở E4/E5.
+- Khung dựng tay cho riêng mã 104: `GiuaKy_MaDe104/nguon/` (LaTeX cho PDF, `taoDocx.js` cho Word, `build.sh`).
 - Đáp án để file riêng (`.md`), không in vào đề. Tự kiểm tra: tính lại bao đóng, khóa, phủ tối thiểu, phép chiếu; mỗi ô chỉ
   có một đáp án đúng; câu F làm được trong số dòng cho phép.
