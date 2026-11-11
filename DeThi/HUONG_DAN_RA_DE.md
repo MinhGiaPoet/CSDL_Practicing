@@ -209,7 +209,7 @@ Chi tiết từng câu và đáp án: `NganHang_GiuaKy_MaDe104.md`.
   $\{AB, ACD\}$ và mất FD còn lại.
 
 ### 8.4. Dựng file đề
-- **Cách nhanh (khuyên dùng):** bộ sinh đề `DeLuyen_GiuaKy/nguon/` (đã sinh 5 đề thi thử mã 201–205).
+- **Cách nhanh (khuyên dùng):** bộ sinh đề `DeLuyen_GiuaKy/nguon/` (đã sinh 10 đề thi thử mã 201–210).
   Thêm một mục vào `DE` trong `cacDe.py` (F Phần B, C1; các tập B1/B2/B3/C2; tên thực thể theo vai trò sơ đồ;
   danh sách quan hệ Phần D; câu Phần E; 12 mã câu từ `nganHangA.py`), rồi chạy `build.sh`. `taoDe.py` tự tính
   mọi đáp án và **dừng báo lỗi** nếu đề lệch khung: Phần B không đúng 3 khóa, phủ tối thiểu không duy nhất, B2 không

@@ -16,7 +16,7 @@ Repo ôn tập môn Cơ sở dữ liệu (PTIT) của người dùng. Trao đổ
   khi giảng giai đoạn F4–F6 của lộ trình thì dùng file này.
 - `DeThi/`: hướng dẫn ra đề và ngân hàng câu hỏi chép lại từ ba bài kiểm tra (hai bài trắc nghiệm trên hệ thống, một đề
   giữa kỳ in giấy mã 104); ảnh gốc nén trong `DeThi/AnhGoc/`. `DeThi/GiuaKy_MaDe104/` là đề giữa kỳ dựng lại thành
-  PDF/Word (chữ bôi đen được), nguồn và `build.sh` trong `nguon/`. `DeThi/DeLuyen_GiuaKy/` là 5 đề thi thử mã 201–205
+  PDF/Word (chữ bôi đen được), nguồn và `build.sh` trong `nguon/`. `DeThi/DeLuyen_GiuaKy/` là 10 đề thi thử mã 201–210
   cùng khung, sinh từ `nguon/cacDe.py` bằng `nguon/build.sh` (đáp án tự tính trong `DapAn_DeLuyen_GiuaKy.md`).
 
 **Học lại từ đầu (từ 16/10/2026):** người dùng đang học theo `LoTrinhHoc.md`. Đầu mỗi phiên đọc file đó để biết đang ở
@@ -27,4 +27,4 @@ Khi thêm file mới: đặt đúng thư mục theo quy ước trong `README.md`
 **Khi người dùng nhờ tạo đề luyện / đề thi thử:** đọc `DeThi/HUONG_DAN_RA_DE.md` trước, xem vài câu mẫu trong
 `DeThi/NganHang_Test2_RA.md` (đề RA), `DeThi/NganHang_Test1_EER.md` (đề ánh xạ ER) hoặc
 `DeThi/NganHang_GiuaKy_MaDe104.md` (đề giữa kỳ trên giấy, mục 8 của hướng dẫn), rồi ra đề đúng phong cách đó.
-Đề kiểu giữa kỳ: thêm mục mới vào `DeThi/DeLuyen_GiuaKy/nguon/cacDe.py` (mã tiếp theo sau 205) rồi chạy `build.sh`.
+Đề kiểu giữa kỳ: thêm mục mới vào `DeThi/DeLuyen_GiuaKy/nguon/cacDe.py` (mã tiếp theo sau 210) rồi chạy `build.sh`.

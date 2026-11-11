@@ -15,7 +15,7 @@ const JSZip = (() => {
 const {
   Document, Packer, Paragraph, TextRun, Table, TableRow, TableCell, WidthType, BorderStyle,
   AlignmentType, Header, Footer, PageNumber, TabStopType, ImageRun, LevelFormat, VerticalAlign,
-  HeightRule, PageBreak, LineRuleType,
+  HeightRule, LineRuleType,
 } = require('docx');
 
 const [, , JSON_IN, PNG_IN, OUT] = process.argv;
@@ -66,8 +66,14 @@ function runs(str, base = {}) {
   return out;
 }
 
+// ngắt trang bằng pageBreakBefore ở đoạn kế tiếp: không sinh trang trắng khi trang trước vừa đầy
+let ngatTruoc = false;
+const ngatTrang = () => { ngatTruoc = true; };
 function para(str, o = {}) {
+  const pb = ngatTruoc;
+  ngatTruoc = false;
   return new Paragraph({
+    pageBreakBefore: pb || undefined,
     children: Array.isArray(str) ? str : runs(str, o),
     alignment: o.align,
     spacing: { before: o.before || 0, after: o.after || 0 },
@@ -82,7 +88,6 @@ const rule = (before = 0, after = 60) => new Paragraph({
   children: [], spacing: { before, after },
   border: { bottom: { style: BorderStyle.SINGLE, size: 6, color: '000000', space: 1 } },
 });
-const pageBreak = () => new Paragraph({ children: [new PageBreak()] });
 
 // ---------------------------------------------------------------- bảng
 const LINE = { style: BorderStyle.SINGLE, size: 4, color: '000000' };
@@ -183,7 +188,7 @@ ghichu('Mỗi ô 0,15 điểm (8 ô). Hai cột chấm độc lập — phải �
 H.push(para(`**C2** *(0,8 điểm)* — Quay lại lược đồ $R(A,B,C,D,E,G)$ ở Phần B. Xét phép chiếu $\\pi_{${C2.S}}(F)$. Với mỗi phụ thuộc dưới đây, điền **Đ** nếu nó *suy diễn được* từ $F$ (tức thuộc $\\pi_{${C2.S}}(F)$), **S** nếu không:`, { before: 60, after: 100 }));
 H.push(grid([['Ô', ...tenO('C2')], ['FD', ...C2.fds.map((x) => `$${x}$`)]], [620, ...Array(8).fill(1080)], { boldRow0: true, boldCol0: true }));
 ghichu('Mỗi ô 0,1 điểm; bỏ trống tính sai.');
-H.push(pageBreak());
+ngatTrang();
 
 // ---- Phần D
 phan('D', 'Mô hình thực thể — liên kết', '1,2 điểm');
@@ -225,13 +230,13 @@ phan('F', 'Tự luận ngắn', '1,2 điểm');
 H.push(para(`Vẫn dùng $R(A,B,C,D)$ với $${de.F.F}$ ở Phần C.`, { after: 60 }));
 H.push(para('**F1** *(0,6 điểm)* Chứng minh $R$ **đạt 3NF**. Yêu cầu: nêu đủ các khóa ứng viên, tập thuộc tính khóa, rồi xét từng phụ thuộc hàm. *(Tối đa 3 dòng)*', { after: 60 }));
 H.push(para('**F2** *(0,6 điểm)* $R$ có đạt BCNF không? Nếu không, hãy làm đủ ba việc: **(a)** chỉ rõ các phụ thuộc vi phạm; **(b)** phân rã $R$ về BCNF và viết các lược đồ con thu được; **(c)** chỉ rõ phụ thuộc hàm nào *bị mất* sau phân rã. *(Tối đa 4 dòng)*'));
-H.push(pageBreak());
+ngatTrang();
 
 // ================================================================= giấy nháp
 for (let k = 0; k < 2; k++) {
   H.push(para('**GIẤY NHÁP**', { align: CEN, size: SZ.large }));
   H.push(para('*Phần viết ở đây không được chấm.*', { align: CEN, size: SZ.small }));
-  H.push(pageBreak());
+  ngatTrang();
 }
 
 // ================================================================= phiếu trả lời
@@ -270,7 +275,7 @@ H.push(grid([['Ô', 'Phép phân rã', 'Không mất mát?', 'Bảo toàn phụ 
 nhan('**C2**');
 H.push(grid([['Ô', ...tenO('C2')], ['FD', ...C2.fds.map((x) => `$${x}$`)], ['Đ/S', ...Array(8).fill('')]],
   [700, ...Array(8).fill(1080)], { boldRow0: true, boldCol0: true, height: ROW_H }));
-H.push(pageBreak());
+ngatTrang();
 phieuPhan('**PHẦN D.  Mô hình thực thể — liên kết** *(1,2 điểm)*');
 H.push(grid([['Ô', 'Đ/S', 'Khóa chính (nếu Đ)'], ...Array.from({ length: 8 }, (_, k) => [`D${k + 1}`, '', ''])],
   [700, 1150, 6400], { boldRow0: true, aligns: [CEN, CEN, L], height: ROW_H }));

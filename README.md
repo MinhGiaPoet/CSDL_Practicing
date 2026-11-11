@@ -38,9 +38,9 @@ DeThi/
 │   ├── DeGiuaKy_CSDL_MaDe104.pdf
 │   ├── DeGiuaKy_CSDL_MaDe104.docx
 │   └── nguon/                     LaTeX (PDF), taoDocx.js (Word), build.sh dựng lại cả hai
-├── DeLuyen_GiuaKy/               5 đề thi thử mã 201–205, cùng khung với mã 104
-│   ├── DeLuyen_GiuaKy_MaDe201.pdf, .docx … DeLuyen_GiuaKy_MaDe205.pdf, .docx
-│   ├── DapAn_DeLuyen_GiuaKy.md    Đáp án 5 đề (tính tự động, có lý do)
+├── DeLuyen_GiuaKy/               10 đề thi thử mã 201–210, cùng khung với mã 104
+│   ├── DeLuyen_GiuaKy_MaDe201.pdf, .docx … DeLuyen_GiuaKy_MaDe210.pdf, .docx
+│   ├── DapAn_DeLuyen_GiuaKy.md    Đáp án 10 đề (tính tự động, có lý do)
 │   └── nguon/                     cacDe.py (đặc tả đề), nganHangA.py (câu trắc nghiệm), taoDe.py, taoDocx.js, build.sh
 └── AnhGoc/                       Ảnh chụp đề thật (nén)
     ├── Test1_EER_FirstTestCSDL.7z

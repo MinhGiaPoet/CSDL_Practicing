@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Sinh các đề thi thử giữa kỳ trong cacDe.py (mã 201–205) theo khung đề thật mã 104.
+"""Sinh các đề thi thử giữa kỳ trong cacDe.py (mã 201–210) theo khung đề thật mã 104.
 
     python3 taoDe.py <thư mục build>
 
@@ -619,7 +619,7 @@ def dap_an(ma, de, A, b, c1, c2, d, f):
 # ------------------------------------------------------------------ chạy
 def main():
     build = os.path.abspath(sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, 'build'))
-    md = ['# Đáp án 5 đề thi thử giữa kỳ (mã 201–205)', '',
+    md = ['# Đáp án các đề thi thử giữa kỳ (mã 201–210)', '',
           'Sinh tự động bởi `nguon/taoDe.py`; mọi đáp án Phần B, C, F được tính bằng `nguon/fd.py`.',
           'Khung đề giống đề thật mã 104 (`../NganHang_GiuaKy_MaDe104.md`). Ký hiệu: K khóa ứng viên, S siêu khóa không tối thiểu,',
           'N không phải siêu khóa.', '']
